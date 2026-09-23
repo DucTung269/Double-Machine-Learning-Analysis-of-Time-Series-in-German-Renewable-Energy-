@@ -1,0 +1,5 @@
+The data and code files used in this thesis are divided into two steps:
+
+The original dataset, named time_series_60min_singleindex.csv, is preprocessed using the code file Preprocessing_version.ipynb.
+
+2. The preprocessed data are then exported to a new dataset named df_final_60min.csv, which is used for the machine-learning analysis in ML_version.ipynb.
