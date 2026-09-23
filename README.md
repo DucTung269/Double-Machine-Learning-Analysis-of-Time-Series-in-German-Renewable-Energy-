@@ -97,7 +97,7 @@ After restoring the time series, the dataset contained **17,544 consecutive hour
 
 Before feature engineering, the autocorrelation structure of the electricity-price series was examined.
 
-![Autocorrelation of Electricity Prices](images/acf_electricity_price.png)
+![Autocorrelation of Electricity Prices](https://github.com/DucTung269/Double-Machine-Learning-Analysis-of-Time-Series-in-German-Renewable-Energy-/blob/main/images/ACF%20for%20DE_LU_price_day_ahead.png?raw=true)
 
 The ACF shows strong positive autocorrelation between consecutive electricity prices.
 
