@@ -155,7 +155,7 @@ After feature engineering, the final modelling dataset contained:
 
 ## Electricity Price Development
 
-![Electricity Price Over Time](images/electricity_price_over_time.png)
+![Electricity Price Over Time](https://github.com/DucTung269/Double-Machine-Learning-Analysis-of-Time-Series-in-German-Renewable-Energy-/blob/main/images/DE_LU_price_day_ahead%20over%20time.png?raw=true)
 
 German day-ahead electricity prices exhibit considerable short-term volatility.
 
@@ -167,7 +167,7 @@ They may occur when electricity supply is high relative to demand, particularly 
 
 ## Electricity Demand and Renewable Generation
 
-![Demand and Renewable Generation](images/demand_solar_wind_over_time.png)
+![Demand and Renewable Generation](https://github.com/DucTung269/Double-Machine-Learning-Analysis-of-Time-Series-in-German-Renewable-Energy-/blob/main/images/Electricity%20demand,%20solar%20generation,%20and%20wind%20generation%20over%20time.png?raw=true)
 
 Electricity demand generally remains above combined solar and wind generation, but the difference varies significantly over time.
 
@@ -223,7 +223,7 @@ The model explains approximately **91.72% of the observed variation** in electri
 
 ## Actual vs. Predicted Electricity Prices
 
-![Actual vs Predicted Electricity Prices](images/actual_vs_predicted_prices.png)
+![Actual vs Predicted Electricity Prices](https://github.com/DucTung269/Double-Machine-Learning-Analysis-of-Time-Series-in-German-Renewable-Energy-/blob/main/images/actual_predict.png?raw=true)
 
 The predicted electricity-price series follows the observed price development closely.
 
@@ -249,7 +249,7 @@ SHAP quantifies how strongly each feature contributes to the model prediction.
 
 ## Global Feature Importance
 
-![SHAP Global Feature Importance](images/shap_feature_importance.png)
+![SHAP Global Feature Importance](https://github.com/DucTung269/Double-Machine-Learning-Analysis-of-Time-Series-in-German-Renewable-Energy-/blob/main/images/bar_shap.png?raw=true)
 
 The most important predictor is:
 
@@ -271,7 +271,7 @@ Other relevant variables include:
 
 ## SHAP Summary Plot
 
-![SHAP Summary Plot](images/shap_summary_plot.png)
+![SHAP Summary Plot](https://github.com/DucTung269/Double-Machine-Learning-Analysis-of-Time-Series-in-German-Renewable-Energy-/blob/main/images/summary_shap.png?raw=true)
 
 The SHAP summary plot shows both the magnitude and direction of each feature's contribution.
 
@@ -319,7 +319,7 @@ Heteroskedasticity- and autocorrelation-consistent (**HAC**) standard errors wer
 
 # 6. Causal Effect of Solar Generation
 
-![NLO-DML Solar Generation](images/nlo_dml_solar.png)
+![NLO-DML Solar Generation](https://github.com/DucTung269/Double-Machine-Learning-Analysis-of-Time-Series-in-German-Renewable-Energy-/blob/main/images/solar_nlo.png?raw=true)
 
 The NLO-DML estimate for solar generation is:
 
@@ -338,7 +338,7 @@ Under the maintained identification assumptions of the DML model, an additional 
 
 # 7. Causal Effect of Wind Generation
 
-![NLO-DML Wind Generation](images/nlo_dml_wind.png)
+![NLO-DML Wind Generation](https://github.com/DucTung269/Double-Machine-Learning-Analysis-of-Time-Series-in-German-Renewable-Energy-/blob/main/images/wind_nlo.png?raw=true)
 
 The NLO-DML estimate for wind generation is:
 
